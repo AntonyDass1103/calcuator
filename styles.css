@@ -1,0 +1,68 @@
+.calculator {
+    width: 500px;
+    height: 600px;
+    margin: 50px auto;
+    text-align: center;
+    border-width: 15px;
+    background-color:rgb(54, 50, 50);
+    border-radius: 10%;
+    box-shadow: 10px 10px 5px 12px rgba(70, 70, 70, 0.349);
+}
+
+input {
+    text-align: end;
+}
+
+
+#display {
+    width: 89%;
+    height: 10%;
+    margin-bottom: 10px;
+    padding: 25px;
+    font-size: 35px;
+    background-color: rgb(54, 50, 50);
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 50px;
+    border: none;
+    color: rgb(255, 255, 255);
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    font-weight: bold;
+    box-shadow: -8px -8px 15px rgb(54, 50, 50,0.1),5px 5px 15px rgb(0, 0, 0,0.1)
+
+
+
+}
+
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 5px;
+    height: 80%;
+    border-radius: 50%;
+    background-color: rgb(54, 50, 50);
+
+
+
+}
+
+button {
+    padding: 10px;
+    font-size: 30px;
+    color: rgb(29, 213, 230);
+    border-radius: 50%;
+    font-family: "Verdana, Geneva, Tahoma, sans-serif";
+    border: none;
+    background-color: rgb(54, 50, 50);
+    cursor: pointer;
+    font-weight: bold;
+    box-shadow: -8px -8px 15px rgb(54, 50, 50,0.1),5px 5px 15px rgb(0, 0, 0,0.1)
+
+}
+h1{
+    font-family:"Verdana, Geneva, Tahoma, sans-serif" ;
+    font-size: 5rem;
+}
+body{
+    background-color: rgb(159, 226, 238);
+}
